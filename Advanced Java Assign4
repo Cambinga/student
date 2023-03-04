@@ -13,11 +13,11 @@ static final String FILENAME = "cardata.txt";
 public static void main(String[] args) {
     while(true) {
         System.out.println("\nSelect an option:");
-        System.out.println("1. This selection stores the data related to the car in file");
-        System.out.println("2. This selection sorts the data from the file and generate a new file with sorted data");
+        System.out.println("1. This selection stores the data related to the car in file.");
+        System.out.println("2. This selection sorts the data from the file and generate a new file with sorted data.");
         System.out.println("3. Use of Collection Framework");
         System.out.println("4. Delete all the contents of the file");
-        System.out.println("0. This selection is to Exit the software");
+        System.out.println("0. This selection is to Exit the software.");
         System.out.print("\nEnter your choice: ");
         int choice = sc.nextInt();
         sc.nextLine(); // Consume newline character
